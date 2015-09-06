@@ -58,7 +58,7 @@ set novisualbell
 set t_vb=
 set tm=500
 set guioptions-=T
-"set guioptions-=m
+set guioptions-=m
 set guioptions-=r
 set rnu
 set nu
@@ -102,6 +102,8 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+map <A-j> 20j
+map <A-k> 20k
 map 0 ^
 inoremap jk <esc>
 
@@ -120,6 +122,9 @@ let g:miniBufExplorerAutoStart = 1
 let g:miniBufExplBuffersNeeded = 0
 let g:miniBufExplUseSingleClick = 1
 let g:miniBufExplShowBufNumbers = 0
+
+"NerdTree
+map <F2> :NERDTreeToggle<cr>
 
 "Ctrl-P
 let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
