@@ -1,0 +1,15 @@
+[submodule "airline"]
+	path = vimfiles/bundle/airline
+	url = https://github.com/bling/vim-airline.git
+
+[submodule "ctrlp"]
+	path = vimfiles/bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+
+[submodule "minibufexpl"]
+	path = vimfiles/bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git
+
+[submodule "nerdtree"]
+	path = vimfiles/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
