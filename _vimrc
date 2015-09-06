@@ -127,6 +127,9 @@ let g:miniBufExplShowBufNumbers = 0
 map <F2> :NERDTreeToggle<cr>
 
 "Ctrl-P
+map <leader>f :CtrlP<cr>
+map <leader>b :CtrlPBuffer<cr>
+map <leader>m :CtrlPBuffer<cr>
 let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
 let g:ctrlp_show_hidden = 0
 let g:ctrlp_working_path_mode = 'ra'
