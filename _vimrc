@@ -105,6 +105,7 @@ map <C-l> <C-W>l
 map <A-j> 20j
 map <A-k> 20k
 map 0 ^
+imap <C-BS> <C-W>
 inoremap jk <esc>
 
 """ Views """
