@@ -1,6 +1,6 @@
-[submodule "airline"]
-	path = vimfiles/bundle/airline
-	url = https://github.com/bling/vim-airline.git
+[submodule "lightline.vim"]
+	path = vimfiles/bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
 
 [submodule "ctrlp"]
 	path = vimfiles/bundle/ctrlp
