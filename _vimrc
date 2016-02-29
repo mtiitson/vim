@@ -60,7 +60,6 @@ set tm=500
 set guioptions-=T
 set guioptions-=m
 set guioptions-=r
-set rnu
 set nu
 set foldmethod=syntax
 set foldlevel=99
@@ -134,7 +133,7 @@ map <leader>m :CtrlPMRU<cr>
 let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
 let g:ctrlp_show_hidden = 0
 let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_root_markers = ['.project']
+let g:ctrlp_root_markers = ['.project', 'package.json', 'settings.gradle']
 
 "Lightline
 let g:lightline = {
