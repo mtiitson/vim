@@ -116,7 +116,7 @@ au BufWinEnter *\.+ silent loadview
 map <F4> :MBEToggle<cr>
 nmap H :MBEbp<cr>
 nmap L :MBEbn<cr>
-nmap <>q :MBEbd<cr>
+nmap <leader>q :MBEbd<cr>
 let g:miniBufExplBRSplit = 0
 let g:miniBufExplorerAutoStart = 1
 let g:miniBufExplBuffersNeeded = 0
@@ -130,7 +130,7 @@ map <F2> :NERDTreeToggle<cr>
 map <leader>f :CtrlP<cr>
 map <leader>b :CtrlPBuffer<cr>
 map <leader>m :CtrlPMRU<cr>
-let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
+let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])jspm_packages($|[/\\])|(^|[/\\])node_modules($|[/\\])|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
 let g:ctrlp_show_hidden = 0
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_root_markers = ['.project', 'package.json', 'settings.gradle']
